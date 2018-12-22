@@ -27,6 +27,7 @@ public class LoginPageSteps {
 	@When("^I click on login button$")
 	public void i_click_on_login_button() {
 		CommonMethods.click(login.btnLogin);
+		
 	}
 
 	@Then("^I successfully logged in$")
